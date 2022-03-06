@@ -1,0 +1,46 @@
+@import "./main.css";
+
+.search__container{
+    background-color: var(--background-cloud-burst);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 2rem;
+    box-sizing: border-box;
+    padding: .5rem;
+    box-shadow: 0 16px 30px -10px rgb(70 96 187 / 20%);
+}
+
+.search__container::before{
+    content: "";
+    background-image: url("../assets/magnifying-glass.png");
+    background-size: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.search__input{
+    background-color: var(--background-cloud-burst);
+    border: none;
+    width: 60%;
+    height: 60%;
+    color: #FFFFFF;
+    padding-left: .5rem;
+}
+
+.search__button{
+    background-color: rgb(0, 121, 255);
+    color: #FFFFFF;
+    height: 90%;
+    border: none;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 14px 12px;
+    border-radius: 10px;
+    min-width: 85px;
+    letter-spacing: 1px;
+    text-align: center;
+}

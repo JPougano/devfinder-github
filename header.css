@@ -1,0 +1,30 @@
+@import "./main.css";
+
+.header__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.header__theme{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.header__theme::after{
+    content: "";
+    background-image: url("../assets/sunny.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: 30px 30px;
+    height: 40px;
+    width: 40px;
+    vertical-align: middle;
+    margin-left: .5rem;
+}
+
+/* Search CSS */
+
