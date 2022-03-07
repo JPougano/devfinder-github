@@ -1,7 +1,6 @@
 @import "./main.css";
 
 .search__container{
-    background-color: var(--background-cloud-burst);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -12,6 +11,24 @@
     box-sizing: border-box;
     padding: .5rem;
     box-shadow: 0 16px 30px -10px rgb(70 96 187 / 20%);
+    max-width: 1000px;
+    min-width: 400px;
+}
+
+.white{
+    background-color: var(--background-light);
+    color: var(--ebony-clay);
+}
+
+.dark{
+    background-color: var(--background-cloud-burst);
+    color: #FFFFFF;
+}
+
+.header__theme___conteiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
 .search__container::before{
@@ -22,12 +39,15 @@
     width: 40px;
 }
 
+.theme__icon{
+    width: 25px;
+    height: 25px;
+}
+
 .search__input{
-    background-color: var(--background-cloud-burst);
     border: none;
     width: 60%;
     height: 60%;
-    color: #FFFFFF;
     padding-left: .5rem;
 }
 
