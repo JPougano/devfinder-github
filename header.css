@@ -5,6 +5,15 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    max-width: 1000px;
+    min-width: 400px;
+}
+
+.white{
+    color: var(--ebony-clay);
+}
+
+.dark{
     color: #FFFFFF;
 }
 
@@ -14,17 +23,6 @@
     font-weight: 600;
 }
 
-.header__theme::after{
-    content: "";
-    background-image: url("../assets/sunny.png");
-    background-repeat: no-repeat;
-    display: inline-block;
-    background-size: 30px 30px;
-    height: 40px;
-    width: 40px;
-    vertical-align: middle;
-    margin-left: .5rem;
+.inner__white{
+    background-color: var(--background-white);
 }
-
-/* Search CSS */
-
