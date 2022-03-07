@@ -10,16 +10,20 @@
     <title>Document</title>
 </head>
 <body>
-    <header class="header__container">
+   <main class="main__container">
+    <header class="white header__container">
         <h1 class="header__title">devfinder</h1>
-        <p class="header__theme">light</p>
+        <div class="header__theme___conteiner">
+            <p class="header__theme">Dark</p>
+            <img src="./assets/moon.png" alt="light theme" class="theme__icon">
+        </div>
     </header>
-    <nav class="search__container">
-        <input type="text" class="search__input">
+    <nav class="white search__container">
+        <input type="text" class="white search__input " >
         <button class="search__button">Search</button>
     </nav>
 
-    <section class="content__container">
+    <section class="white content__container">
         <div class="user__container">
             <img src="https://avatars.githubusercontent.com/u/87842758?v=4" alt="User avatar" class="user__avatar">
             <ul class="user__data">
@@ -28,8 +32,8 @@
                 <li class="user__joined">Joined 23 jul. 2023</li>
             </ul>
         </div>
-        <p class="user__bio">Data Analyst trying to do some new stuff!</p>
-        <div class="user__info">
+        <p class="user__bio ">Data Analyst trying to do some new stuff!</p>
+        <div class="user__info ">
             <ul class="user__info___li">
                 <li>Repos</li>
                 <li class="user__info__repos">11</li>
@@ -44,7 +48,7 @@
             </ul>
         </div>
 
-        <div class="user__deatils">
+        <div class="user__deatils ">
             <ul class="user__details___list">
                 <li><img src="./assets/location.png" alt="location icon" class="icon"></li>
                 <li class="user__location">Rio de Jeneiro - Brazil</li>
@@ -63,6 +67,7 @@
             </ul>
         </div>
     </section>
+   </main>
     <script src="script.js"></script>
 </body>
 </html>
