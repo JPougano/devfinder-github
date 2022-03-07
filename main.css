@@ -18,8 +18,17 @@
 }
 
 body{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.dark{
     background-color: var(--background-dark);
-    padding: 1.25rem;
+}
+
+.white{
+    background-color: var(--clr-font-blue);
 }
 
 li{
