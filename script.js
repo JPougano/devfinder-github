@@ -34,3 +34,32 @@ button.addEventListener('click', function click(){
             userCompany.textContent = respostaConvertida.company;
         })
 })
+
+
+let theme = document.querySelector('.header__theme');
+let themeBody = document.querySelector('body');
+let themeSearch = document.querySelector('.search__container');
+let themeContent = document.querySelector('.content__container');
+let themeUser = document.querySelector('.user__container');
+let themeheader = document.querySelector('.header__container');
+let themeSearchInput = document.querySelector('.search__input');
+let themeIcon = document.querySelector('.theme__icon');
+
+
+
+theme.addEventListener('click',()=>{
+    themeBody.classList.toggle('dark');
+    themeSearch.classList.toggle('dark');
+    themeContent.classList.toggle('dark');
+    themeUser.classList.toggle('dark');
+    themeheader.classList.toggle('dark');
+    themeSearchInput.classList.toggle('dark');
+    if(theme.textContent === 'Dark'){
+        theme.textContent = 'Light';
+        themeIcon.setAttribute('src',"./assets/sunny.png");
+
+    }else{
+        theme.textContent = 'Dark';
+        themeIcon.setAttribute('src',"./assets/moon.png");
+    }
+})
